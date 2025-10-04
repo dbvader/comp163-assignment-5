@@ -37,3 +37,20 @@ if isPrime == True:
     print(f"{number2} is prime!")
 else:
     print(f"{number2} is not prime (divisible by {divisor})")
+
+#chal 3
+
+print("\n === Challenge 3: Multiplication Table ===\n Multiplication Table:")
+
+print("   ", end="")  
+for h in range(1, 11):
+    print(f"{h:4}", end="")
+print()
+
+
+for row in range(1, 11):
+    print(f"{row:2} ", end="")  
+    for col in range(1, 11):
+        ray = row * col
+        print(f"{ray:4}", end="")
+    print()
